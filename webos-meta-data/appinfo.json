@@ -1,0 +1,20 @@
+{
+    "id": "com.domain.appname",
+    "title": "AppName",
+    "main": "index.html",
+    "icon": "icon_80x80.png",
+    "largeIcon": "icon_130x130.png",
+    "type": "web",
+    "vendor": "My Company",
+    "version": "0.0.1",
+    "appDescription": "This is an app tagline",
+    "resolution": "1920x1080",
+    "bgColor": "red",
+    "iconColor": "red",
+    "bgImage": "background.png",
+    "splashBackground": "splash.png",
+    "transparent": false, 
+    "handlesRelaunch": false,
+	"disableBackHistoryAPI": false,
+    "requiredMemory": 20
+}
