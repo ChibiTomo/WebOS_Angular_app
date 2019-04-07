@@ -1,19 +1,18 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './shared/components/home/home.component';
+import { HeroesComponent } from './shared/components/heroes/heroes.component'
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent
+        HeroesComponent
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule
+        FormsModule
     ],
     providers: [],
     bootstrap: [
@@ -21,4 +20,4 @@ import { HomeComponent } from './shared/components/home/home.component';
     ]
 })
 
-export class AppModule {}
+export class AppModule { }
